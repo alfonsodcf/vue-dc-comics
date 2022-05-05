@@ -1,13 +1,13 @@
 <template>
-<header>
-    <h1>header</h1>
-</header>
+<div>
+    <p>main</p>
+</div>
 
 </template>
 
 <script>
 export default {
-  name: 'AppHeader',
+  name: 'AppGrid',
  
 }
 </script>
