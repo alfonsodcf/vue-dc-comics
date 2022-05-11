@@ -1,9 +1,8 @@
 <template>
     <div>
+        <img :src="detail.thumb" :alt="detail.series">
+        <h3>{{detail.series}}</h3>
         
-        <!-- <img :src="detail.thumb" :alt="detail.series">
-        <h3>{{detail.series}}</h3> -->
-        <p>prova</p> 
 
     </div>
 </template>
@@ -17,12 +16,21 @@
             }
         },
         props: {
-            datail: Object
+            detail: Object
         }
     }
 </script>
 
 <style scoped lang="scss">
+div{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    h3{
+        color: white;
+    }
+}
+
 
 
 </style>
