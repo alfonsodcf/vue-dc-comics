@@ -5,7 +5,7 @@
         <ul>
             <li v-for="(link, index) in links" :key="index">
                     <a  :href="link.url">
-                 <!-- <img :src="'../assets/img/'+ links.img+ '.png'" :alt="link.text"> -->
+                 <img :src="require('../assets/img/'+ link.img+ '.png')" :alt="link.text"> 
                  <!-- <img src="../assets/img/buy-comics-digital-comics.png" alt=""> -->
                     
                         {{ link.text }}
