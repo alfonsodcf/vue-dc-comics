@@ -1,9 +1,12 @@
 <template>
     <div>
+
+        
         <ul>
             <li v-for="(link, index) in links" :key="index">
                     <a  :href="link.url">
-                    <!-- <img :src="links.img" :alt="link.text"> -->
+                 <!-- <img :src="'../assets/img/'+ links.img+ '.png'" :alt="link.text"> -->
+                 <!-- <img src="../assets/img/buy-comics-digital-comics.png" alt=""> -->
                     
                         {{ link.text }}
                     </a>
@@ -23,30 +26,32 @@ export default {
                 {
                     text: "Digita Comics",
                     url: "#",
-                    img:"buy-comics-digital-comics.png",
+                    img:"buy-comics-digital-comics",
                 },
                 {
                     text: "DC merchandise",
                     url: "#",
-                    img:"buy-comics-merchandise.png",
+                    img:"buy-comics-merchandise",
                 },
                 {
                     text: "Subscription",
                     url: "#",
-                    img:"buy-comics-subscriptions.png",
+                    img:"buy-comics-subscriptions",
                 },
                 {
                     text: "Comics shop locator",
                     url: "#",
-                    img:"buy-comics-shop-locator.png",
+                    img:"buy-comics-shop-locator",
                 },
                 {
                     text: "DC power visa",
                     url: "#",
-                    img:"buy-comics-subscriptions.png",
+                    img:"buy-comics-subscriptions",
                 },
                 
             ],
+
+                    
         }
     }
 }
